@@ -8,12 +8,12 @@ const Footer = () => {
                      <div className="container mx-auto px-4 md:px-6 relative z-10">
                             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
                                    <div className="md:col-span-1">
-                                          <a href="#" className="flex items-center gap-3 mb-8 group w-fit">
-                                                 <div className="relative p-0.5 rounded-xl bg-gradient-to-br from-primary/50 to-primary/10 group-hover:shadow-[0_0_15px_rgba(247,206,60,0.2)] transition-all duration-300">
+                                          <a href="#" className="flex items-center gap-3 md:gap-4 mb-8 group w-fit">
+                                                 <div className="relative transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(247,206,60,0.3)]">
                                                         <img
-                                                               src="/assets/logo-dg.jpg"
+                                                               src="/assets/logo-dg.png"
                                                                alt="Diego Grande Logo"
-                                                               className="w-11 h-11 rounded-[10px] object-cover"
+                                                               className="w-14 h-14 md:w-16 md:h-16 object-contain"
                                                         />
                                                  </div>
                                                  <div className="flex flex-col">
