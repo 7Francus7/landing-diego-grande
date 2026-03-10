@@ -26,7 +26,7 @@ const Footer = () => {
                                                  </div>
                                           </a>
                                           <p className="text-gray-400 mb-8 font-light leading-relaxed">
-                                                 Especialistas en electricidad automotor. Venta de baterías Moura, diagnóstico eléctrico computarizado, reparación de alternadores y motores de arranque. Ruta 9 Km 752, Colonia Caroya.
+                                                 Especialistas en electricidad automotor. Venta y reparación de alternadores, motores de arranque y diagnóstico eléctrico computarizado. Ruta 9 Km 752, Colonia Caroya.
                                           </p>
                                           <div className="flex gap-4">
                                                  <a href="#" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(247,206,60,0.3)] transition-all">
@@ -42,7 +42,7 @@ const Footer = () => {
                                           <h4 className="text-lg font-bold mb-8 text-white uppercase tracking-wider">Enlaces Rápidos</h4>
                                           <ul className="space-y-4">
                                                  <li><a href="#how-it-works" className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2"><span className="w-1 h-1 bg-primary rounded-full"></span> Cómo funciona</a></li>
-                                                 <li><a href="#selector" className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2"><span className="w-1 h-1 bg-primary rounded-full"></span> Buscador de Baterías</a></li>
+                                                 <li><a href="#selector" className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2"><span className="w-1 h-1 bg-primary rounded-full"></span> Buscador de Alternadores</a></li>
                                                  <li><a href="#blog" className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2"><span className="w-1 h-1 bg-primary rounded-full"></span> Nuestro Blog</a></li>
                                                  <li><a href="#" className="text-gray-400 hover:text-primary transition-colors flex items-center gap-2"><span className="w-1 h-1 bg-primary rounded-full"></span> Garantía Oficial</a></li>
                                           </ul>

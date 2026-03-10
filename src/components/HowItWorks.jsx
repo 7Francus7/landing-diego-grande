@@ -5,7 +5,7 @@ const HowItWorks = () => {
        const steps = [
               {
                      number: "01",
-                     title: "Solicitá tu batería",
+                     title: "Solicitá tu alternador",
                      description: "Elegí tu modelo de auto en el buscador o llamanos por teléfono. Un especialista te asesorará al instante.",
                      icon: <Phone className="w-8 h-8 text-black" />,
               },

@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Car, Battery, Info, CheckCircle2, Zap } from 'lucide-react';
+import { Search, Car, Activity, Info, CheckCircle2, Zap } from 'lucide-react';
 import { vehicles } from '../data/vehicles';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -24,7 +24,7 @@ const VehicleSelector = () => {
                                                  make: make.make,
                                                  model: model.name,
                                                  year: year,
-                                                 battery: model.battery
+                                                 alternator: model.alternator
                                           });
                                    });
                             }
@@ -46,7 +46,7 @@ const VehicleSelector = () => {
 
                      <div className="container mx-auto px-4 md:px-6 relative z-10">
                             <div className="max-w-4xl mx-auto text-center mb-16">
-                                   <h2 className="text-4xl md:text-6xl mb-6 text-white font-black tracking-tight">¿Qué batería lleva <span className="text-primary italic">tu auto?</span></h2>
+                                   <h2 className="text-4xl md:text-6xl mb-6 text-white font-black tracking-tight">¿Qué alternador lleva <span className="text-primary italic">tu auto?</span></h2>
                                    <p className="text-gray-400 text-xl font-light">Buscá tu marca y modelo para una recomendación precisa.</p>
                             </div>
 
@@ -105,7 +105,7 @@ const VehicleSelector = () => {
                                                                <div className="md:w-1/3 mb-8 md:mb-0 flex justify-center">
                                                                       <div className="relative">
                                                                              <div className="absolute inset-0 bg-primary/30 blur-[60px] rounded-full animate-pulse-glow pointer-events-none"></div>
-                                                                             <Battery size={120} className="relative text-white" strokeWidth={0.5} />
+                                                                             <Activity size={120} className="relative text-white opacity-20" strokeWidth={0.5} />
                                                                              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
                                                                                     <Zap size={40} className="text-primary" />
                                                                              </div>
@@ -114,15 +114,15 @@ const VehicleSelector = () => {
                                                                <div className="md:w-2/3">
                                                                       <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit mb-4">
                                                                              <CheckCircle2 size={16} className="text-primary" />
-                                                                             <span className="font-bold text-xs uppercase tracking-wider text-primary">Batería Recomendada</span>
+                                                                             <span className="font-bold text-xs uppercase tracking-wider text-primary">Alternador Recomendado</span>
                                                                       </div>
-                                                                      <h3 className="text-4xl md:text-5xl font-black text-white mb-2">{selectedVehicle.battery.model}</h3>
-                                                                      <p className="text-gray-400 mb-8 font-light text-lg">{selectedVehicle.battery.specs}</p>
+                                                                      <h3 className="text-4xl md:text-5xl font-black text-white mb-2">{selectedVehicle.alternator.model}</h3>
+                                                                      <p className="text-gray-400 mb-8 font-light text-lg">{selectedVehicle.alternator.specs}</p>
 
                                                                       <div className="flex items-center justify-between mb-10 p-6 rounded-2xl bg-black/50 border border-white/5">
                                                                              <div>
                                                                                     <p className="text-sm text-gray-500 mb-1 font-medium">Precio Final (con entrega)</p>
-                                                                                    <p className="text-5xl font-black text-primary">${selectedVehicle.battery.price.toLocaleString('es-AR')}</p>
+                                                                                    <p className="text-5xl font-black text-primary">${selectedVehicle.alternator.price.toLocaleString('es-AR')}</p>
                                                                              </div>
                                                                              <div className="text-right">
                                                                                     <div className="flex items-center gap-2 justify-end mb-1">

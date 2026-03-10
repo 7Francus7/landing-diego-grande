@@ -6,7 +6,7 @@ export const vehicles = [
                      {
                             name: "Fiesta",
                             years: ["2010-2015", "2016-2020", "2021+"],
-                            battery: {
+                            alternator: {
                                    model: "Moura M20GD",
                                    specs: "12V 60Ah",
                                    price: 155000
@@ -15,7 +15,7 @@ export const vehicles = [
                      {
                             name: "Focus",
                             years: ["2010-2014", "2015-2019", "2020+"],
-                            battery: {
+                            alternator: {
                                    model: "Moura M24KD",
                                    specs: "12V 70Ah",
                                    price: 185000
@@ -24,7 +24,7 @@ export const vehicles = [
                      {
                             name: "Ranger",
                             years: ["2012-2016", "2017-2022", "2023+"],
-                            battery: {
+                            alternator: {
                                    model: "Moura M28KD",
                                    specs: "12V 90Ah",
                                    price: 245000
@@ -39,7 +39,7 @@ export const vehicles = [
                      {
                             name: "Cronos",
                             years: ["Todas las versiones"],
-                            battery: {
+                            alternator: {
                                    model: "Moura M20GD",
                                    specs: "12V 60Ah",
                                    price: 155000
@@ -48,7 +48,7 @@ export const vehicles = [
                      {
                             name: "Toro",
                             years: ["Diesel", "Nafta"],
-                            battery: {
+                            alternator: {
                                    model: "Moura M24KD",
                                    specs: "12V 70Ah",
                                    price: 185000
@@ -63,7 +63,7 @@ export const vehicles = [
                      {
                             name: "Gol Trend",
                             years: ["Todas las versiones"],
-                            battery: {
+                            alternator: {
                                    model: "Moura M20GD",
                                    specs: "12V 60Ah",
                                    price: 155000
@@ -72,7 +72,7 @@ export const vehicles = [
                      {
                             name: "Amarok",
                             years: ["V6", "2.0 biturbo", "2.0 turbo"],
-                            battery: {
+                            alternator: {
                                    model: "Moura M28KD",
                                    specs: "12V 90Ah",
                                    price: 245000

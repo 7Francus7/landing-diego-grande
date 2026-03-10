@@ -43,7 +43,7 @@ const Navbar = () => {
                                           Servicios
                                    </a>
                                    <a href="#selector" className="text-sm font-semibold uppercase tracking-widest text-white/70 hover:text-primary transition-colors">
-                                          Buscar Batería
+                                          Buscar Alternador
                                    </a>
                                    <a href="#blog" className="text-sm font-semibold uppercase tracking-widest text-white/70 hover:text-primary transition-colors">
                                           Blog

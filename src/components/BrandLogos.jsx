@@ -9,7 +9,7 @@ const BrandLogos = () => {
               { name: "Fiat", logo: "https://cdn.simpleicons.org/fiat/white", id: 5 },
               { name: "Toyota", logo: "https://cdn.simpleicons.org/toyota/white", id: 6 },
               { name: "Peugeot", logo: "https://cdn.simpleicons.org/peugeot/white", id: 7 },
-              { name: "Moura", logo: "https://cdn.worldvectorlogo.com/logos/baterias-moura.svg", id: 8 },
+              { name: "Bosch", logo: "https://www.vectorlogo.zone/logos/bosch/bosch-ar21.svg", id: 8 },
        ];
 
        return (

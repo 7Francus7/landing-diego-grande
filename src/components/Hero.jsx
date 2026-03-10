@@ -28,7 +28,7 @@ const Hero = () => {
                                           className="flex flex-col items-center mt-16 md:mt-24"
                                    >
                                           <h1 className="text-5xl md:text-7xl lg:text-[85px] text-white font-black mb-6 leading-[1.05] tracking-tight">
-                                                 La batería de tu auto <br className="hidden md:block" />
+                                                 El alternador de tu auto <br className="hidden md:block" />
                                                  <span className="relative inline-block mt-2">
                                                         <span className="bg-gradient-to-r from-primary via-[#FFE58F] to-primary bg-clip-text text-transparent">
                                                                en tiempo récord.
@@ -37,12 +37,12 @@ const Hero = () => {
                                           </h1>
 
                                           <p className="text-lg md:text-2xl text-gray-400 mb-12 max-w-3xl font-light leading-relaxed mx-auto">
-                                                 Especialistas en electricidad automotor en Colonia Caroya. Venta, instalación y diagnóstico de baterías, <strong className="text-white font-semibold">alternadores y motores de arranque.</strong>
+                                                 Especialistas en electricidad automotor en Colonia Caroya. Venta, reparación y diagnóstico de <strong className="text-white font-semibold">alternadores, motores de arranque y sistemas eléctricos.</strong>
                                           </p>
 
                                           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full sm:w-auto">
                                                  <a href="#selector" className="btn-primary flex items-center justify-center gap-2 w-full sm:w-auto group">
-                                                        Buscar Batería <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                                                        Buscar Alternador <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
                                                  </a>
                                                  <a href="https://wa.me/5493525618338" target="_blank" rel="noopener noreferrer" className="btn-outline w-full sm:w-auto flex items-center justify-center gap-2">
                                                         WhatsApp Directo
@@ -57,9 +57,9 @@ const Hero = () => {
                                           className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-24"
                                    >
                                           {[
-                                                 { icon: <Clock className="text-primary" size={28} />, title: "En 15 Minutos", text: "Instalación de batería en tiempo récord" },
-                                                 { icon: <Zap className="text-primary" size={28} />, title: "Marca Moura", text: "Distribuidor oficial de baterías Moura" },
-                                                 { icon: <ShieldCheck className="text-primary" size={28} />, title: "Diagnóstico Avanzado", text: "Escáner profesional: batería, alternador y arranque" }
+                                                 { icon: <Clock className="text-primary" size={28} />, title: "En 15 Minutos", text: "Diagnóstico de alternador en tiempo récord" },
+                                                 { icon: <Zap className="text-primary" size={28} />, title: "Service Oficial", text: "Garantía de confianza en todos los trabajos" },
+                                                 { icon: <ShieldCheck className="text-primary" size={28} />, title: "Diagnóstico Avanzado", text: "Escáner profesional: alternador, arranque y electricidad" }
                                           ].map((item, i) => (
                                                  <div key={i} className="card-glass flex flex-col items-center text-center p-8 group">
                                                         <div className="p-4 rounded-2xl bg-white/5 border border-white/10 mb-6 group-hover:shadow-[0_0_30px_rgba(247,206,60,0.2)] group-hover:border-primary/30 transition-all duration-500 inline-flex">

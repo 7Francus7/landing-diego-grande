@@ -1,12 +1,12 @@
 import React from 'react';
-import { Battery, Wrench, Cpu, Truck, CreditCard, Clock } from 'lucide-react';
+import { Activity, Wrench, Cpu, Truck, CreditCard, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const services = [
        {
-              icon: <Battery className="w-8 h-8 text-black" />,
-              title: "Venta de Baterías",
-              description: "Distribuidor oficial Moura y marcas líderes. Baterías para autos, camionetas, utilitarios y más.",
+              icon: <Activity className="w-8 h-8 text-black" />,
+              title: "Venta de Alternadores",
+              description: "Distribuidor oficial y marcas líderes. Alternadores para autos, camionetas, utilitarios y más.",
        },
        {
               icon: <Cpu className="w-8 h-8 text-black" />,
@@ -21,7 +21,7 @@ const services = [
        {
               icon: <Truck className="w-8 h-8 text-black" />,
               title: "Instalación Express",
-              description: "Instalamos tu batería nueva en solo 15 minutos. Servicio rápido, profesional y sin sorpresas.",
+              description: "Reparamos o instalamos tu alternador en tiempo récord. Servicio rápido, profesional y sin sorpresas.",
        },
        {
               icon: <CreditCard className="w-8 h-8 text-black" />,
@@ -31,7 +31,7 @@ const services = [
        {
               icon: <Clock className="w-8 h-8 text-black" />,
               title: "Atención Personalizada",
-              description: "Turnos y consultas vía WhatsApp. Te asesoramos antes de comprar para encontrar la batería ideal.",
+              description: "Turnos y consultas vía WhatsApp. Te asesoramos antes de comprar para encontrar el repuesto ideal.",
        }
 ];
 

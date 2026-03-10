@@ -4,11 +4,11 @@ import { ArrowRight } from 'lucide-react';
 const posts = [
        {
               id: 1,
-              title: "¿Cómo saber si tu batería está por agotarse?",
+              title: "¿Cómo saber si tu alternador está fallando?",
               category: "Mantenimiento",
               readTime: "3 min",
               image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-              excerpt: "Conocé las señales clave que indican que es momento de cambiar la batería de tu auto antes de quedarte a pie."
+              excerpt: "Conocé las señales clave que indican que es momento de revisar el alternador de tu auto antes de quedarte a pie."
        },
        {
               id: 2,
@@ -20,11 +20,11 @@ const posts = [
        },
        {
               id: 3,
-              title: "Alternador o Batería: ¿Cuál es el problema?",
+              title: "Mantenimiento Preventivo del Alternador",
               category: "Diagnóstico",
               readTime: "4 min",
               image: "https://images.unsplash.com/photo-1498887960847-2a5e46312788?auto=format&fit=crop&w=800&q=80",
-              excerpt: "Muchos problemas que parecen de batería en realidad son culpa del alternador. Aprendé a diferenciarlos."
+              excerpt: "Evitá fallas inesperadas. Un buen mantenimiento del alternador prolonga la vida útil de todo tu sistema eléctrico."
        }
 ];
 
