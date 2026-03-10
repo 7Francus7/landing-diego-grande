@@ -22,7 +22,7 @@ const Footer = () => {
                                                  </div>
                                           </a>
                                           <p className="text-gray-400 mb-8 font-light leading-relaxed">
-                                                 Especialistas en electricidad automotor y venta de baterías directo al público. Calidad y velocidad garantizada.
+                                                 Especialistas en electricidad automotor. Venta de baterías Moura, diagnóstico eléctrico computarizado, reparación de alternadores y motores de arranque. Ruta 9 Km 752, Colonia Caroya.
                                           </p>
                                           <div className="flex gap-4">
                                                  <a href="#" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(247,206,60,0.3)] transition-all">
@@ -57,7 +57,7 @@ const Footer = () => {
                                                         <div className="p-3 rounded-full bg-white/5 border border-white/10 text-primary">
                                                                <Phone size={18} />
                                                         </div>
-                                                        <span className="text-gray-400 font-light">3525 644368 / 3525 463532</span>
+                                                        <span className="text-gray-400 font-light">3525 618338 / 3525 644369</span>
                                                  </li>
                                                  <li className="flex items-center gap-4">
                                                         <div className="p-3 rounded-full bg-white/5 border border-white/10 text-primary">

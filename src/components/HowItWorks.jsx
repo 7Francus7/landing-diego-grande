@@ -12,13 +12,13 @@ const HowItWorks = () => {
               {
                      number: "02",
                      title: "Recibí donde estés",
-                     description: "Nuestras unidades móviles están equipadas para llegar a cualquier punto de la zona en menos de 50 minutos.",
+                     description: "Nuestras unidades móviles están preparadas para llegar a cualquier punto de la zona en solo 15 minutos.",
                      icon: <Truck className="w-8 h-8 text-black" />,
               },
               {
                      number: "03",
-                     title: "Instalación y garantía",
-                     description: "Instalamos la batería, testeamos el alternador y te entregamos el certificado de garantía oficial.",
+                     title: "Diagnóstico y garantía",
+                     description: "Diagnosticamos con escáner profesional batería, alternador y arranque. Entregamos certificado de garantía oficial.",
                      icon: <ShieldCheck className="w-8 h-8 text-black" />,
               }
        ];

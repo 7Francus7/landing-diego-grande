@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import BrandLogos from './components/BrandLogos';
 import HowItWorks from './components/HowItWorks';
+import Services from './components/Services';
 import VehicleSelector from './components/VehicleSelector';
 import BlogSection from './components/BlogSection';
 import Footer from './components/Footer';
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <BrandLogos />
         <HowItWorks />
+        <Services />
         <VehicleSelector />
         <BlogSection />
       </main>

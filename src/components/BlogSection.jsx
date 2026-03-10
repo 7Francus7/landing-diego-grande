@@ -12,11 +12,11 @@ const posts = [
        },
        {
               id: 2,
-              title: "Mitos y verdades sobre el arranque en frío",
+              title: "Diagnóstico eléctrico: no es magia, es precisión",
               category: "Consejos",
               readTime: "5 min",
               image: "https://images.unsplash.com/photo-1563720223185-11003d516935?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-              excerpt: "El invierno es la época más dura para el sistema eléctrico de tu auto. ¿Qué es cierto y qué no?"
+              excerpt: "Fallas en tablero, luces o cortocircuitos requieren diagnóstico con herramientas digitales de precisión. Por eso usamos analizadores profesionales."
        },
        {
               id: 3,

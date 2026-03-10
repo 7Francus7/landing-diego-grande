@@ -35,16 +35,19 @@ const Navbar = () => {
                                    <a href="#how-it-works" className="text-sm font-semibold uppercase tracking-widest text-white/70 hover:text-primary transition-colors">
                                           Cómo funciona
                                    </a>
+                                   <a href="#servicios" className="text-sm font-semibold uppercase tracking-widest text-white/70 hover:text-primary transition-colors">
+                                          Servicios
+                                   </a>
                                    <a href="#selector" className="text-sm font-semibold uppercase tracking-widest text-white/70 hover:text-primary transition-colors">
                                           Buscar Batería
                                    </a>
                                    <a href="#blog" className="text-sm font-semibold uppercase tracking-widest text-white/70 hover:text-primary transition-colors">
                                           Blog
                                    </a>
-                                   <button className="flex items-center gap-2 text-sm py-3 px-8 font-bold uppercase tracking-wider rounded-full transition-all duration-300 bg-primary text-black hover:bg-white hover:shadow-[0_0_20px_rgba(247,206,60,0.5)] active:scale-95">
+                                   <a href="https://wa.me/5493525618338" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm py-3 px-8 font-bold uppercase tracking-wider rounded-full transition-all duration-300 bg-primary text-black hover:bg-white hover:shadow-[0_0_20px_rgba(247,206,60,0.5)] active:scale-95">
                                           <Phone size={18} />
-                                          0800-DIEGO-G
-                                   </button>
+                                          WhatsApp
+                                   </a>
                             </div>
 
                             {/* Mobile Toggle */}
@@ -66,12 +69,13 @@ const Navbar = () => {
                             <div className="md:hidden bg-black/95 backdrop-blur-xl border-t border-white/10 p-6 absolute top-full left-0 right-0 shadow-2xl animate-fade-in">
                                    <div className="flex flex-col gap-6">
                                           <a href="#how-it-works" className="text-white/80 hover:text-primary text-lg font-bold tracking-wide border-b border-white/10 pb-4 transition-colors" onClick={() => setIsMenuOpen(false)}>Cómo funciona</a>
+                                          <a href="#servicios" className="text-white/80 hover:text-primary text-lg font-bold tracking-wide border-b border-white/10 pb-4 transition-colors" onClick={() => setIsMenuOpen(false)}>Servicios</a>
                                           <a href="#selector" className="text-white/80 hover:text-primary text-lg font-bold tracking-wide border-b border-white/10 pb-4 transition-colors" onClick={() => setIsMenuOpen(false)}>Buscar Batería</a>
                                           <a href="#blog" className="text-white/80 hover:text-primary text-lg font-bold tracking-wide border-b border-white/10 pb-4 transition-colors" onClick={() => setIsMenuOpen(false)}>Blog</a>
-                                          <button className="w-full flex items-center justify-center gap-2 py-4 text-lg bg-primary text-black font-bold uppercase tracking-wider rounded-full shadow-[0_0_20px_rgba(247,206,60,0.3)] active:scale-95 transition-all">
+                                          <a href="https://wa.me/5493525618338" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-4 text-lg bg-primary text-black font-bold uppercase tracking-wider rounded-full shadow-[0_0_20px_rgba(247,206,60,0.3)] active:scale-95 transition-all">
                                                  <Phone size={24} />
-                                                 Llamar ahora
-                                          </button>
+                                                 WhatsApp
+                                          </a>
                                    </div>
                             </div>
                      )}

@@ -37,16 +37,16 @@ const Hero = () => {
                                           </h1>
 
                                           <p className="text-lg md:text-2xl text-gray-400 mb-12 max-w-3xl font-light leading-relaxed mx-auto">
-                                                 Revolucionamos la asistencia automotriz. Llevamos e instalamos la batería que tu vehículo necesita, <strong className="text-white font-semibold">donde estés, cuando la necesites.</strong>
+                                                 Especialistas en electricidad automotor en Colonia Caroya. Venta, instalación y diagnóstico de baterías, <strong className="text-white font-semibold">alternadores y motores de arranque.</strong>
                                           </p>
 
                                           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full sm:w-auto">
                                                  <a href="#selector" className="btn-primary flex items-center justify-center gap-2 w-full sm:w-auto group">
                                                         Buscar Batería <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
                                                  </a>
-                                                 <button className="btn-outline w-full sm:w-auto flex items-center justify-center gap-2">
-                                                        Atención Rápida
-                                                 </button>
+                                                 <a href="https://wa.me/5493525618338" target="_blank" rel="noopener noreferrer" className="btn-outline w-full sm:w-auto flex items-center justify-center gap-2">
+                                                        WhatsApp Directo
+                                                 </a>
                                           </div>
                                    </motion.div>
 
@@ -57,9 +57,9 @@ const Hero = () => {
                                           className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-24"
                                    >
                                           {[
-                                                 { icon: <Clock className="text-primary" size={28} />, title: "< 50 Minutos", text: "Tiempo máximo de llegada en zona" },
-                                                 { icon: <Zap className="text-primary" size={28} />, title: "Garantía Oficial", text: "Directo de fábrica por 12 meses" },
-                                                 { icon: <ShieldCheck className="text-primary" size={28} />, title: "Instalación Segura", text: "Mano de obra certificada por expertos" }
+                                                 { icon: <Clock className="text-primary" size={28} />, title: "En 15 Minutos", text: "Instalación de batería en tiempo récord" },
+                                                 { icon: <Zap className="text-primary" size={28} />, title: "Marca Moura", text: "Distribuidor oficial de baterías Moura" },
+                                                 { icon: <ShieldCheck className="text-primary" size={28} />, title: "Diagnóstico Avanzado", text: "Escáner profesional: batería, alternador y arranque" }
                                           ].map((item, i) => (
                                                  <div key={i} className="card-glass flex flex-col items-center text-center p-8 group">
                                                         <div className="p-4 rounded-2xl bg-white/5 border border-white/10 mb-6 group-hover:shadow-[0_0_30px_rgba(247,206,60,0.2)] group-hover:border-primary/30 transition-all duration-500 inline-flex">
