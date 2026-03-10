@@ -9,11 +9,13 @@ const Footer = () => {
                             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
                                    <div className="md:col-span-1">
                                           <a href="#" className="flex items-center gap-3 mb-8 group w-fit">
-                                                 <img
-                                                        src="/assets/logo-dg.jpg"
-                                                        alt="Diego Grande Logo"
-                                                        className="w-11 h-11 rounded-xl object-cover group-hover:scale-105 transition-transform"
-                                                 />
+                                                 <div className="relative p-0.5 rounded-xl bg-gradient-to-br from-primary/50 to-primary/10 group-hover:shadow-[0_0_15px_rgba(247,206,60,0.2)] transition-all duration-300">
+                                                        <img
+                                                               src="/assets/logo-dg.jpg"
+                                                               alt="Diego Grande Logo"
+                                                               className="w-11 h-11 rounded-[10px] object-cover"
+                                                        />
+                                                 </div>
                                                  <div className="flex flex-col">
                                                         <span className="font-black text-xl leading-none text-white">
                                                                DIEGO GRANDE
