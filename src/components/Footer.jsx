@@ -9,13 +9,6 @@ const Footer = () => {
                             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
                                    <div className="md:col-span-1">
                                           <a href="#" className="flex items-center gap-3 md:gap-4 mb-8 group w-fit">
-                                                 <div className="relative transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(247,206,60,0.3)]">
-                                                        <img
-                                                               src="/assets/logo-dg.png"
-                                                               alt="Diego Grande Logo"
-                                                               className="w-14 h-14 md:w-16 md:h-16 object-contain"
-                                                        />
-                                                 </div>
                                                  <div className="flex flex-col">
                                                         <span className="font-black text-xl leading-none text-white">
                                                                DIEGO GRANDE
