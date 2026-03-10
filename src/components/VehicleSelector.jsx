@@ -40,7 +40,7 @@ const VehicleSelector = () => {
        };
 
        return (
-              <section id="selector" className="py-32 bg-black relative overflow-hidden">
+              <section id="selector" className="pt-32 pb-48 bg-black relative">
                      {/* Background details */}
                      <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/5 blur-[150px] rounded-full pointer-events-none"></div>
 
