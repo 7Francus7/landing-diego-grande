@@ -40,7 +40,7 @@ const VehicleSelector = () => {
        };
 
        return (
-              <section id="selector" className="py-32 bg-black relative">
+              <section id="selector" className="py-32 bg-black relative overflow-hidden">
                      {/* Background details */}
                      <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/5 blur-[150px] rounded-full pointer-events-none"></div>
 
@@ -69,7 +69,7 @@ const VehicleSelector = () => {
 
                                           {/* Search Suggestions */}
                                           {!showResults && searchTerm.length > 1 && filteredVehicles.length > 0 && (
-                                                 <div className="absolute top-full left-0 right-0 mt-4 bg-[#111] border border-white/10 shadow-2xl rounded-3xl overflow-hidden z-40 backdrop-blur-xl">
+                                                 <div className="absolute top-full left-0 right-0 mt-4 bg-[#111] border border-white/10 shadow-2xl rounded-3xl overflow-hidden z-40 backdrop-blur-xl max-h-[320px] overflow-y-auto">
                                                         {filteredVehicles.map((v) => (
                                                                <button
                                                                       key={v.id}
