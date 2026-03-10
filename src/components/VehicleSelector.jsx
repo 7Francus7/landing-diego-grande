@@ -69,7 +69,7 @@ const VehicleSelector = () => {
 
                                           {/* Search Suggestions */}
                                           {!showResults && searchTerm.length > 1 && filteredVehicles.length > 0 && (
-                                                 <div className="absolute top-full left-0 right-0 mt-4 bg-[#111] border border-white/10 shadow-2xl rounded-3xl overflow-hidden z-40 backdrop-blur-xl max-h-[320px] overflow-y-auto">
+                                                 <div className="absolute top-full left-0 right-0 mt-4 bg-[#111] border border-white/10 shadow-2xl rounded-3xl overflow-hidden z-50 backdrop-blur-xl max-h-[200px] md:max-h-[320px] overflow-y-auto">
                                                         {filteredVehicles.map((v) => (
                                                                <button
                                                                       key={v.id}
