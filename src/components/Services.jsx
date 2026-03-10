@@ -4,24 +4,24 @@ import { motion } from 'framer-motion';
 
 const services = [
        {
-              icon: <Activity className="w-8 h-8 text-black" />,
-              title: "Venta de Alternadores",
-              description: "Distribuidor oficial y marcas líderes. Alternadores para autos, camionetas, utilitarios y más.",
-       },
-       {
               icon: <Cpu className="w-8 h-8 text-black" />,
               title: "Diagnóstico Eléctrico",
               description: "Análisis computarizado con herramientas digitales de alta precisión. Detectamos fallas reales, no adivinamos.",
        },
        {
+              icon: <Activity className="w-8 h-8 text-black" />,
+              title: "Venta y Colocación de Baterías",
+              description: "Distribuidor oficial de marcas líderes. Contamos con stock permanente para todo tipo de vehículos.",
+       },
+       {
               icon: <Wrench className="w-8 h-8 text-black" />,
-              title: "Alternadores y Arranques",
+              title: "Arranque y Alternadores",
               description: "Reparación y reemplazo de motores de arranque y alternadores. Servicio especializado con garantía.",
        },
        {
               icon: <Truck className="w-8 h-8 text-black" />,
-              title: "Instalación Express",
-              description: "Reparamos o instalamos tu alternador en tiempo récord. Servicio rápido, profesional y sin sorpresas.",
+              title: "Cambio de Batería a Domicilio",
+              description: "Servicio express sin cargo de instalación en la zona. Llegamos donde estés en tiempo récord.",
        },
        {
               icon: <CreditCard className="w-8 h-8 text-black" />,

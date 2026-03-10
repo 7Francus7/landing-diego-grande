@@ -68,8 +68,8 @@ const Footer = () => {
                                    <div>
                                           <h4 className="text-lg font-bold mb-8 text-white uppercase tracking-wider">Horario de Atención</h4>
                                           <ul className="space-y-4 text-gray-400 font-light">
-                                                 <li className="flex justify-between border-b border-white/5 pb-2"><span>Lunes a Viernes:</span> <span className="font-medium text-white">08:00 - 18:00</span></li>
-                                                 <li className="flex justify-between border-b border-white/5 pb-2"><span>Sábados:</span> <span className="font-medium text-white">08:30 - 13:00</span></li>
+                                                 <li className="flex justify-between border-b border-white/5 pb-2"><span>Lunes a Viernes:</span> <span className="font-medium text-white text-right">08:00 - 12:30 <br /> 15:30 - 19:00</span></li>
+                                                 <li className="flex justify-between border-b border-white/5 pb-2"><span>Sábados:</span> <span className="font-medium text-white">08:00 - 12:30</span></li>
                                                  <li className="flex justify-between text-primary mt-6 font-bold bg-primary/10 p-4 rounded-xl border border-primary/20 items-center">
                                                         <span>Emergencias 24hs</span>
                                                         <Zap className="fill-primary" size={20} />
