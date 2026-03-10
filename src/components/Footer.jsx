@@ -25,10 +25,10 @@ const Footer = () => {
                                                  Especialistas en electricidad automotor y venta de baterías directo al público. Calidad y velocidad garantizada.
                                           </p>
                                           <div className="flex gap-4">
-                                                 <a href="#" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(247,206,60,0.3)] transition-all">
+                                                 <a href="#" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(247,206,60,0.3)] transition-all">
                                                         <Facebook size={20} />
                                                  </a>
-                                                 <a href="#" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(247,206,60,0.3)] transition-all">
+                                                 <a href="https://www.instagram.com/bateriasdiegogrande/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(247,206,60,0.3)] transition-all">
                                                         <Instagram size={20} />
                                                  </a>
                                           </div>
