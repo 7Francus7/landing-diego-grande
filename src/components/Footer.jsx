@@ -9,9 +9,11 @@ const Footer = () => {
                             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
                                    <div className="md:col-span-1">
                                           <a href="#" className="flex items-center gap-3 mb-8 group w-fit">
-                                                 <div className="bg-primary text-black p-2 rounded-xl transform -skew-x-12 group-hover:scale-105 transition-transform flex items-center justify-center">
-                                                        <Zap size={20} className="fill-black" />
-                                                 </div>
+                                                 <img
+                                                        src="/assets/logo-dg.jpg"
+                                                        alt="Diego Grande Logo"
+                                                        className="w-11 h-11 rounded-xl object-cover group-hover:scale-105 transition-transform"
+                                                 />
                                                  <div className="flex flex-col">
                                                         <span className="font-black text-xl leading-none text-white">
                                                                DIEGO GRANDE
